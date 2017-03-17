@@ -22,5 +22,11 @@
   "homepage": "https://github.com/ss44/NodeCacheFS#readme",
   "dependencies": {
     "fuse-bindings": "^2.11.0"
+  },
+  "devDependencies": {
+    "eslint": "^3.17.1",
+    "eslint-config-standard": "^7.0.1",
+    "eslint-plugin-promise": "^3.5.0",
+    "eslint-plugin-standard": "^2.1.1"
   }
 }

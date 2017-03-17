@@ -1,0 +1,17 @@
+{
+	"folders":
+	[
+		{
+			"path": "."
+		}
+	],
+
+    "linters": {
+        "eslint": {
+            "args": [
+                "--stdin-filename", "__RELATIVE_TO_FOLDER__"
+            ]
+        }
+    }
+
+}
