@@ -1,0 +1,26 @@
+{
+  "name": "fuse.cachefs",
+  "version": "1.0.0",
+  "description": "A CahceFS Fuse Wrapper using Fuse-Bindings",
+  "main": "index.js",
+  "scripts": {
+    "test": "test"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+ssh://git@github.com/ss44/NodeCacheFS.git"
+  },
+  "keywords": [
+    "cachefs",
+    "fuse"
+  ],
+  "author": "@shindasingh",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/ss44/NodeCacheFS/issues"
+  },
+  "homepage": "https://github.com/ss44/NodeCacheFS#readme",
+  "dependencies": {
+    "fuse-bindings": "^2.11.0"
+  }
+}
