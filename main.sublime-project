@@ -5,13 +5,11 @@
 			"path": "."
 		}
 	],
-
-    "linters": {
-        "eslint": {
-            "args": [
-                "--stdin-filename", "__RELATIVE_TO_FOLDER__"
-            ]
-        }
+    
+    "settings":
+    {
+        "tab_size": 2,
+        "translate_tabs_to_spaces": true,
+        "trim_trailing_white_space_on_save": true
     }
-
 }
