@@ -3,16 +3,14 @@ var init = require('./lib/init')
 var winston = require('winston')
 var args
 
-winston.level = 'debug'
+winston.level = 'info'
 
 try {
   args = init.checkInit()
   var fuseCache = require('./lib/fuseCache')(args)
 
   winston.info('Attempting to mount Cache with args:', args)
-
   fuse.mount(args['target'], fuseCache)
-
 } catch (error) {
   winston.error('Error - ' + error.toString() + '\n')
   init.showUsage()
