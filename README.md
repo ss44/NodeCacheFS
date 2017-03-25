@@ -1,7 +1,7 @@
 # Fuse.CacheFS
 A simple cachefs written in node using the [fuse-bindings](https://github.com/mafintosh/fuse-bindings) Libray.
 
-You specify a source directory and then all content in the cached directory will attempt to mirro and cache from the source.
+You specify a source directory and then all content in the cached directory will attempt to mirror and cache from the source.
 
 Main goal is make mounting of cloud drives via [rclone](http://rclone.org/) or [acd_cli](https://github.com/yadayada/acd_cli) a little bit faster by being able to cache contents on local drives for faster access and scans.
 
