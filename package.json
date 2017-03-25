@@ -1,10 +1,10 @@
 {
   "name": "fuse.cachefs",
   "version": "1.0.0",
-  "description": "A CahceFS Fuse Wrapper using Fuse-Bindings",
+  "description": "A CahceFS written using Fuse-Bindings. The main goal is to make streaming files from cloud services via rclone or acd-cli faster while making fewer calls.",
   "main": "index.js",
   "scripts": {
-    "test": "test"
+    "test": "test",
   },
   "repository": {
     "type": "git",
@@ -14,10 +14,14 @@
     "cachefs",
     "fuse"
   ],
-  "author": "@shindasingh",
   "license": "ISC",
   "bugs": {
     "url": "https://github.com/ss44/NodeCacheFS/issues"
+  },
+  "author": {
+    "name" : "Shinda Singh",
+    "twitter" : "@shindasingh",
+    "url" : "https://blog.shindasingh.com"
   },
   "homepage": "https://github.com/ss44/NodeCacheFS#readme",
   "dependencies": {
@@ -37,5 +41,9 @@
     "eslint-config-standard": "^7.0.1",
     "eslint-plugin-promise": "^3.5.0",
     "eslint-plugin-standard": "^2.1.1"
-  }
+  },
+  "bin":  {
+    "ncachefs" : "./nscachefs"
+  },
+  "os" : [ "darwin", "linux" ]
 }
