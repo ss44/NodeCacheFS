@@ -1,10 +1,10 @@
 {
   "name": "fuse.cachefs",
-  "version": "1.0.0",
+  "version": "0.1.1",
   "description": "A CahceFS written using Fuse-Bindings. The main goal is to make streaming files from cloud services via rclone or acd-cli faster while making fewer calls.",
   "main": "index.js",
   "scripts": {
-    "test": "test",
+    "test": "test"
   },
   "repository": {
     "type": "git",
@@ -43,7 +43,7 @@
     "eslint-plugin-standard": "^2.1.1"
   },
   "bin":  {
-    "ncachefs" : "./nscachefs"
+    "fuse.cachefs" : "./bin/fuse.cachefs"
   },
   "os" : [ "darwin", "linux" ]
 }
