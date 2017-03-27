@@ -1,6 +1,6 @@
 {
   "name": "fuse.cachefs",
-  "version": "0.1.2",
+  "version": "0.1.3",
   "description": "A CahceFS written using Fuse-Bindings. The main goal is to make streaming files from cloud services via rclone or acd-cli faster while making fewer calls.",
   "main": "index.js",
   "scripts": {
