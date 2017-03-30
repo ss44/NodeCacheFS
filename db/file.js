@@ -1,10 +1,11 @@
-var Document = require('camo').Document
+const Document = require('camo').Document
+const winston = require('winston')
 
 class File extends Document {
   constructor () {
     super()
 
-    this._Directory = require('./file.js').File
+    this._Directory = require('./directory.js').Directory
     this._Attrs = require('./attrs.js').Attrs
 
     this.directory = {
